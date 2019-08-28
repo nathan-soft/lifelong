@@ -11,10 +11,15 @@ body{
 a.nav-link:hover{
     color:#ff9b61 !important; 
 }
+.navbar-toggler{
+    background-color: rgb(212, 212, 212);
+}
+.navbar-toggler:hover{
+    background-color: rgb(139, 139, 139);
+}
 .primary-button {
     background-color: #ff5f00;
     border: 1px solid #ff5f00;
-    z-index: 500 !important;
 }
 .primary-button:hover {
     background-color: #d64f00;
@@ -27,44 +32,34 @@ a.nav-link:hover{
     background-position: center center;
     height:80vh;
 }
-.overlay{
-    background-color:rgba(15, 15, 15, 0.712);
-    height: 100%;
-}
-.what-we-do{
+/* .what-we-do{
     background-color: rgba(29, 89, 255, 0.945);
-    position: relative;
-    bottom: 60px;
-}
-.how-it-works{
+} */
+/* .how-it-works{
     background-color: rgb(190, 190, 190);
-}
+} */
 .bg-orange{
-    background-color: #ff5f00;
+    background-color: #ff8036;
 }
-.border-orange{
+/* .border-orange{
     border: 1px solid #ff5f00;
-}
-.bg-blue{
+} */
+/* .bg-blue{
     background-color: rgba(29, 89, 255, 0.945);
-}
-.how-it-works-arrow{
-    position: relative;
-    left: 4rem;
-    top: 4rem;
-    z-index: 100 !important;
-}
-.why-trust-us{
-    /* background-image: url('../images/Life\ Skills\ in\ Nigeria_Edusko_222.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; */
-} 
+} */
+/* .how-it-works{
+    background-image: linear-gradient(to right, #6c757d 50%, #ff5f00 0%);
+} */
 .overlay-dark{
     background-color: rgba(0, 0, 0, 0.623);
     height:100%;
 }
 .overlay-light{
     background-color:rgba(255, 255, 255, 0.4);
+    height: 100%;
+} 
+
+.overlay{
+    background-color:rgba(29, 29, 29, 0.568);
     height: 100%;
 }
