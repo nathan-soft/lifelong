@@ -77,3 +77,35 @@ a.nav-link:hover{
     background-color:rgba(29, 29, 29, 0.568);
     height: 100%;
 }
+
+/*************************************************
+**************************************************
+            WHY TRUST US SECTION
+**************************************************
+*************************************************/
+@media screen and (max-width: 575px){
+    .videoBox{
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 520px){
+    .slide-img{
+        width: 40%;
+    }
+    .slide-text{
+        width: 60%;
+        padding: 0px 10px 20px 10px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .slide-img{
+        width: 100%;
+    }
+    .slide-text{
+        width: 100%;
+        padding: 0px 10px 20px 10px;
+        
+    }
+}
